@@ -9,10 +9,9 @@ import {
 
 import Experiencia from "./componentes/experiencia";
 import Educacion from "./componentes/educacion";
-import Tecnologias from "./componentes/tecnologias";
-import Habilidades from "./componentes/habilidades";
+import Tecnologias from "./componentes/stacktecnologias";
 import ToggleHabilidades from "./componentes/ToggleHabilidades";
-
+import Habilidades from "./componentes/habilidades";
 function App() {
   const [experiencias, _setExperiencias] = useState(experienciasData);
   const [educacion, _setEducacion] = useState(educacionData);
