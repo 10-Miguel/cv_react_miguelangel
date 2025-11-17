@@ -34,6 +34,7 @@ export default function StackTecnologias() {
             style={{
               backgroundColor: getColor(tec),
               padding: "12px",
+              borderRadius: "8px",
             }}
           >
             {tec}
